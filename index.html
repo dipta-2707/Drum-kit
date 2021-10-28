@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit | dipta das</title>
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="keys">
+            <div data-key="KeyA" class="key"><kbd>A</kbd>
+                <span>clap</span>
+            </div>
+            <div data-key="KeyS" class="key"><kbd>S</kbd>
+                <span>hihat</span>
+            </div>
+            <div data-key="KeyD" class="key"><kbd>D</kbd>
+                <span>kick</span>
+            </div>
+            <div data-key="KeyF" class="key"><kbd>F</kbd>
+                <span>openhat</span>
+            </div>
+            <div data-key="KeyG" class="key"><kbd>G</kbd>
+                <span>boom</span>
+            </div>
+            <div data-key="KeyH" class="key"><kbd>H</kbd>
+                <span>ride</span>
+            </div>
+            <div data-key="KeyJ" class="key"><kbd>J</kbd>
+                <span>snare</span>
+            </div>
+            <div data-key="KeyK" class="key"><kbd>K</kbd>
+                <span>tom</span>
+            </div>
+            <div data-key="KeyL" class="key"><kbd>L</kbd>
+                <span>tink</span>
+            </div>
+        </div>
+        <p class="hints">[ press keybord keys to play drum sound ]</p>
+        <p class="hints">@2021 Dipta Das  <a href="https://github.com/dipta-2707" target="_blank"><i class="fab fa-github"></i></a></p>
+    </div>
+
+    <audio data-key="KeyA" src="assets/audio/clap.wav"></audio>
+    <audio data-key="KeyS" src="assets/audio/hiHat.wav"></audio>
+    <audio data-key="KeyD" src="assets/audio/kick.wav"></audio>
+    <audio data-key="KeyF" src="assets/audio/openHat.wav"></audio>
+    <audio data-key="KeyG" src="assets/audio/boom.wav"></audio>
+    <audio data-key="KeyH" src="assets/audio/ride.wav"></audio>
+    <audio data-key="KeyJ" src="assets/audio/snare.wav"></audio>
+    <audio data-key="KeyK" src="assets/audio/tom.wav"></audio>
+    <audio data-key="KeyL" src="assets/audio/tink.wav"></audio>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
